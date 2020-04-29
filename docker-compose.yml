@@ -16,8 +16,8 @@ services:
     image: ubuntu
     privileged: true
     mem_limit: 100m
-    hostname: teamRocket
-    container_name: teamRocket
+    hostname: maquina1
+    container_name: maquina1
     networks:
       x1:
         ipv4_address: 192.168.10.29
@@ -26,8 +26,8 @@ services:
     image: ubuntu
     privileged: true
     mem_limit: 100m
-    hostname: teamRocket
-    container_name: teamRocket
+    hostname: maquina2
+    container_name: maquina2
     networks:
       x1:
         ipv4_address: 192.168.10.11
@@ -37,8 +37,8 @@ services:
     image: ubuntu
     privileged: true
     mem_limit: 100m
-    hostname: teamRocket
-    container_name: teamRocket
+    hostname: maquina3
+    container_name: maquina3
     networks:
       x1:
         ipv4_address: 192.168.10.148
